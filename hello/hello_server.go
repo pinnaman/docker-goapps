@@ -11,7 +11,7 @@ import
 func indexHandler(w http.ResponseWriter, r *http.Request) {
     //fmt.Println(w, string(9786))
     w.Write([]byte(string(9786)))
-    fmt.Fprintln(w, "Smiley,")
+    fmt.Fprintln(w, "Smiley!!!")
     w.Write([]byte("Docker Gorilla!\n"))
 }
 
